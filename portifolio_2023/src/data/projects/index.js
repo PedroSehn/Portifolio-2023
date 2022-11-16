@@ -3,7 +3,7 @@ import projectIcons from '../../assets/project-images'
 const projetcts = [
   {
     name: 'Pixel Art Project',
-    image: projectIcons.desktop,
+    image: projectIcons.beaker,
     tecnologies: ['react', 'sass', 'javascript'],
     description: 'Um editor de pixel artes, minha primeira experiencia individual com React e Sass.',
     destaque: false,
@@ -19,7 +19,7 @@ const projetcts = [
   },
   {
     name: 'Mongo Aggregations',
-    image: projectIcons.backend,
+    image: projectIcons.beaker,
     tecnologies: ['mongodb', 'javascript'],
     description: 'Meu primeiro contato com Mongodb.',
     destaque: false,
@@ -34,7 +34,7 @@ const projetcts = [
     link: 'https://github.com/PedroSehn/Store_Manager',
   },
   {
-    name: 'DataFlights',
+    name: 'Data Flights',
     image: projectIcons.backend,
     tecnologies: ['mongodb'],
     description: 'Primieiro projeto em Mongodb, simula a adiministração de um aeroporto.',
@@ -51,7 +51,7 @@ const projetcts = [
   },
   {
     name: 'Pokedex',
-    image: projectIcons.desktop,
+    image: projectIcons.pokedex,
     tecnologies: ['react', 'sass', 'javascript'],
     describe: 'Um projeto que lista todos os pokemons dá API "PokeAPI"',
     destaque: true,
@@ -59,7 +59,7 @@ const projetcts = [
   },
   {
     name: 'Dungeons & Dragons',
-    image: projectIcons.mobile,
+    image: projectIcons.code,
     tecnologies: ['typescript'],
     describe: 'Um projeto que simula um jogo de RPG em Typescript',
     destaque: true,
