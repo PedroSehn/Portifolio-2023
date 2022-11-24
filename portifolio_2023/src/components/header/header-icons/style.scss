@@ -1,0 +1,37 @@
+@import "../../globa.var.scss";
+
+@media only screen and (min-width: 1024px) { 
+  .icon-parent {
+    
+    .selected {
+      border-left: solid 2px $selected-collor;
+      transition: 500ms;
+    }
+    
+    .icon {
+      width: 4.2vw;
+      margin-right: -0.5vw;
+  
+      &:hover{
+        transition: 500ms;
+        scale: 1.2;
+      }
+  
+      &:not(:hover) {
+        transition: 400ms;
+      }
+    }
+  
+  }
+}
+
+@media only screen and (max-width: 920px ){ 
+  .icon-parent {
+    margin-top: -3vw;
+    .icon {
+
+      width: 10vw;
+    }
+  }
+}
+

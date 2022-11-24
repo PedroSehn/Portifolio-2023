@@ -1,0 +1,22 @@
+@import "../globa.var.scss";
+
+
+.Main {
+  height: 100%;
+  width: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+  div{
+  width: 98%;
+  height: 95%;
+  background-color: $backgroud-purple;
+  border-radius: 20px;
+  }
+} 
+
+@media only screen and (min-width: 1024px) { 
+
+}
