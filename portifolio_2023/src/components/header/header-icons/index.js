@@ -1,12 +1,15 @@
 import './style.scss';
-
+import React, { useContext } from 'react'
+import AppContext from "../../context/AppContext";
 
 function HeaderIcon (props) {
-  const { icon } = props;
+  const { icons, name, refer } = props;
+  const { HeaderSelected, SetHeaderSelected } = useContext(AppContext);
+  const icon = HeaderSelected === name ? icons.selected : icons.normal;
   return(
-    <div className='icon-parent'>
-      <a href='https://www.youtube.com/watch?v=BxfaoyR5mQg'>
-        <img src={ icon } alt='' className='icon'/>
+    <div className='icon-parent'  onClick={(e) => SetHeaderSelected(e.target.id)}>
+      <a href={`#${refer}`}>
+        <img src={icon} id={`${name}`} alt='' className='icon'/>
       </a>
     </div>
   )

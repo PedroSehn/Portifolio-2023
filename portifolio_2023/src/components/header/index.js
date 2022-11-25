@@ -10,7 +10,7 @@ function Header() {
     <header className="Header">
        { icons.map((index) => {
           const icon = headerIcons[index];
-          return <HeaderIcon icon={ icon }/>
+          return <HeaderIcon icons={ icon } name={index} refer={`${index}-section`}/>
        }) }
     </header>
   );

@@ -2,6 +2,7 @@
 
 @media only screen and (min-width: 1024px) { 
   .Header {
+    position: fixed;
     width: 6%;
     height: 100%;
     background-color: $black;
@@ -11,12 +12,17 @@
     flex-direction: column;
   }
 }
+
 @media only screen and (max-width: 920px ){ 
   .Header {
+    position: absolute;
+    z-index: 3;
     width: 100%;
-    height: 11vw;
+    height: 14vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-  }
+    justify-content: space-around;
+    background-color: $black;
+    box-shadow: 0 -1px 12px $backgroud-dark-purple;
+    }
 }
