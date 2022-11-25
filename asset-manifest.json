@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portifolio-2023/static/css/main.4dc6e654.css",
-    "main.js": "/Portifolio-2023/static/js/main.7edc87b1.js",
+    "main.css": "/Portifolio-2023/static/css/main.c8b32da7.css",
+    "main.js": "/Portifolio-2023/static/js/main.eac30772.js",
     "static/js/787.a2a47260.chunk.js": "/Portifolio-2023/static/js/787.a2a47260.chunk.js",
     "static/media/tecnologies-selected.svg": "/Portifolio-2023/static/media/tecnologies-selected.99995c9315a4faea56c97bf9ac1aa22d.svg",
     "static/media/tecnologies.svg": "/Portifolio-2023/static/media/tecnologies.fcc94f5aa9c421437e0c7f8607da7e17.svg",
@@ -12,12 +12,12 @@
     "index.html": "/Portifolio-2023/index.html",
     "static/media/perfil.svg": "/Portifolio-2023/static/media/perfil.6223b8c1903dbfa0b7b20cb1b2fb3537.svg",
     "static/media/contact.svg": "/Portifolio-2023/static/media/contact.dca2c73cbc25c89cea29d28448ef55de.svg",
-    "main.4dc6e654.css.map": "/Portifolio-2023/static/css/main.4dc6e654.css.map",
-    "main.7edc87b1.js.map": "/Portifolio-2023/static/js/main.7edc87b1.js.map",
+    "main.c8b32da7.css.map": "/Portifolio-2023/static/css/main.c8b32da7.css.map",
+    "main.eac30772.js.map": "/Portifolio-2023/static/js/main.eac30772.js.map",
     "787.a2a47260.chunk.js.map": "/Portifolio-2023/static/js/787.a2a47260.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dc6e654.css",
-    "static/js/main.7edc87b1.js"
+    "static/css/main.c8b32da7.css",
+    "static/js/main.eac30772.js"
   ]
 }
